@@ -1,0 +1,14 @@
+{
+    "name": "AI-Bing",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "AI-Bing",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+}
